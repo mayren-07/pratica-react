@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+button {
+  font-size: 1em;
+}

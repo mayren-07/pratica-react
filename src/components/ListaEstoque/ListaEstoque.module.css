@@ -1,0 +1,86 @@
+.listaEstoque {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.listaEstoque h2 {
+  color: #004d99;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.produtoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.nomeProduto,
+.quantidadeProduto {
+  flex: 1;
+  text-align: center;
+}
+
+.botoesAcoes {
+  display: flex;
+  gap: 5px;
+}
+
+.botaoComprar {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaoComprar:hover {
+  background-color: #388e3c;
+}
+
+.botaoVender {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaoVender:hover {
+  background-color: #cc7a00;
+}
+
+.estoqueBaixo {
+  background-color: #ffe6e6;
+  color: #b30000;
+}
+
+.estoqueNormal {
+  background-color: #e6f7e6;
+  color: #006600;
+}

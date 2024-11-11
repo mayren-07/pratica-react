@@ -1,0 +1,67 @@
+.produtoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.nomeProduto,
+.quantidadeProduto,
+.valorProduto,
+.botoesAcoes {
+  flex: 1;
+  text-align: center;
+}
+
+.botoesAcoes {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.botaoComprar {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaoComprar:hover {
+  background-color: #388e3c;
+}
+
+.botaoVender {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaoVender:hover {
+  background-color: #cc7a00;
+}
+
+.estoqueBaixo {
+  background-color: #ffe6e6;
+  color: #b30000;
+}
+
+.estoqueNormal {
+  background-color: #e6f7e6;
+  color: #006600;
+}
