@@ -33,7 +33,10 @@ export const ItemEstoque = ({ produto, produtos, setProdutos, caixa, setCaixa })
                 }
 
                 produto.estoque -= 1
-                if (produto.estoque <= 5) setEstoque('estoqueBaixo')
+                if (produto.estoque <= 5) {
+                    setEstoque('estoqueBaixo')
+                    window.alert('Alerta de estoque baixo\n Produto: '+produto.nome+' - Quantidade: '+produto.estoque)
+                }
                 setProdutos([...produtos])
                 setCaixa(+caixa + produto.venda)
             }}>-</button>
